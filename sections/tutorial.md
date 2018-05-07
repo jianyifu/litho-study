@@ -2,7 +2,7 @@
 
 *注意* 这部分教程建立在[Litho教程](https://fblitho.com/docs/tutorial)基础之上。确保在此之前已经阅读那个教程的所有内容。
 
-回想一下 我们在[Litho教程](https://fblitho.com/docs/tutorial) 留下了一个垂直滚动带有交替背景的列表。在这个教程中，我们会在原有列表的顶部加一个水平的滚动单元，通过修改ListSectionSpec 来最充分利用 LItho和 Sections API的可组合性。
+回想一下 我们在[Litho教程](https://fblitho.com/docs/tutorial) 留下了一个垂直滚动带有交替背景的列表。在这个教程中，我们会在原有列表的顶部加一个水平的滚动单元，通过修改ListSectionSpec 来充分利用 LItho和 Sections API的可组合性。
 
 ## 1. 重构 ListSectionSpec
 我们来重新看一下ListSectionSpec。在for循环里的每个SingleComponentSection渲染几乎一样的组件，只有数字发生变化。换句话说，我们的每个ListItem 都依赖于同一个 int 型的模型对象。
