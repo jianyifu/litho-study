@@ -2,7 +2,7 @@
 
 一个Group Section Spec 用于把数据组织成Sections层级结构，每一个section 负责一组数据的渲染。
 
-Group Section Specs 用 @GroupSectionSpec进行标注。编写GroupSectionSpec很简单：你只需要写一个方法，用@OnCreateChildren 进行标注，这个方法返回Sections树，以当前Section为根节点。子节点可以是由其他GroupSectionSpec类或者DiffSectionSpec classes创建的Section实例。
+Group Section Specs 用 @GroupSectionSpec进行标注。编写GroupSectionSpec很简单：你只需要写一个方法，用@OnCreateChildren 进行标注，这个方法返回Sections树，以当前Section为根节点。子节点可以是由其他GroupSectionSpec 类或者DiffSectionSpec 类创建的Section实例。
 
 我们来看一下如何声明一个简单的包含有头部的字符串列表。
 用[SingleComponentSection](https://fblitho.com/docs/sections-building-blocks#singlecomponentsection)作为头部，[DataDiffSection](https://fblitho.com/docs/sections-building-blocks#datadiffsection)作为字符串列表，再将两者结合到一个层次结构中：
