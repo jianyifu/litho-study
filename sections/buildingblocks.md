@@ -1,7 +1,7 @@
-# Sections构建模块
+# Sections 构建模块
 Sections API 提供几种内置的Section可以作为几乎任何类型页面的构建模块。
 
-大多数滚动页面通常可以描述成同种类型交替出现条目的分组。举个例子，假设一个按照字母序排列的联系人列表，由显示联系人姓名首字母的头部分成各个分组。基于这样的假设，Sections API 包含两种DiffSectionSpec 的实现，通过结合使用两者可以表示几乎任何页面结构：SingleComponentSection 和 DataDiffSection。
+大多数滚动页面通常可以描述成同种类型交替出现条目的分组。举个例子，假设一个按照字母序排列的联系人列表，由显示联系人姓名首字母的头部分成各个分组。基于这样的假设，Sections API 包含两种 DiffSectionSpec 的实现，通过结合使用两者可以表示几乎任何页面结构：SingleComponentSection 和 DataDiffSection。
 
 ## SingleComponentSection
 

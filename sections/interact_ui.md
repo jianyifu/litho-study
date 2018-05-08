@@ -10,7 +10,7 @@
 
 ### <u>API</u>
 
-调用 SectionTree#refresh() 方法将刷新请求传递给层级结构中的所有 Sections 。在 Section中可以这样处理：
+调用 SectionTree#refresh() 方法将刷新请求传递给层级结构中的所有 Sections 。在 Section 中可以这样处理：
 
 	class SectionSpec {
 	
@@ -26,7 +26,7 @@
  当可见窗口中发生变化时会调用带有 @OnViewportChanged 的方法。
 ### <u>API</u>
 
-调用 SectionTree#viewPortChanged() 和 SectionTree#viewPortChangedFromScrolling() 方法可以让 Sections 知道当前窗口发生了变化。
+调用 SectionTree#viewPortChanged() 和  SectionTree#viewPortChangedFromScrolling() 方法可以让 Sections 知道当前窗口发生了变化。
 
 	class SectionSpec {
 	
