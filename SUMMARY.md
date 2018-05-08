@@ -30,6 +30,7 @@
     * [Sections教程](sections/tutorial.md)
     * [GroupSection Specs](sections/groupsection.md)
     * [DiffSection Specs](sections/diffsection.md)
+    * [Sections Building Blocks](sections/buildingblocks.md)
     * [与UI交互](sections/interact_ui.md)
     * [Sections单元测试](sections/unit_test.md)
     * [Sections与Views](sections/sections_views.md)
