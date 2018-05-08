@@ -2,7 +2,7 @@
 
 ## 介绍
 
-数据最终由组件显示在屏幕上之前会在整个 Section 层级结构中流动。 Sections 提供一系列功能，让你可以对数据变化做出响应和以及同UI进行交互。
+数据最终由组件显示在屏幕上之前会在整个 Section 层级结构中流动。 Sections 提供一系列功能，让你可以对数据变化做出响应以及同UI进行交互。
 
 ## @OnRefresh
 
@@ -208,6 +208,6 @@ requestFocus() 方法有几种不同的形式。
 
 ### <u>向上传递加载事件</u>
 
-加载事件要向上传递直到某个 Section 决定处理此次加载事件。如果某一 Section 处理加载事件时，如果这个 Section 的父 Sections 也想要处理此次加载事件，则需要将事件向上传递。
+加载事件要向上传递直到某个 Section 决定处理此次加载事件。如果某一 Section 处理加载事件时，这个 Section 的父 Sections 也想要处理此次加载事件，则需要将事件向上传递。
 
 	SectionLifecycle.dispatchLoadingEvent(c, isEmpty, loadingState, t);
