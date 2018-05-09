@@ -2,14 +2,14 @@
 
 * [Introduction](README.md)
 * 简介
-    * [Litho是什么](introduction/what_is_litho.md)
+    * [Litho 是什么](introduction/what_is_litho.md)
     * [动机](introduction/motivation.md)
     * [使用](introduction/uses.md)
 * 快速开始
     * [新手入门](quickstart/get_started.md)
     * [教程](quickstart/tutorial.md)
-    * [编写Component](quickstart/writing_components.md)
-    * [使用Component](quickstart/using_components.md)
+    * [编写 Component](quickstart/writing_components.md)
+    * [使用 Component](quickstart/using_components.md)
 * 参考
     * [Layout Specs](reference/layoutspecs.md)
     * [Mount Specs](reference/mountspecs.md)
@@ -26,16 +26,16 @@
     * [触摸处理](handlingevent/touchhandling.md)
     * [可见性处理](handlingevent/visibilityhandling.md)
 * Sections
-    * [Sections是什么](sections/what.md)
-    * [Sections教程](sections/tutorial.md)
+    * [Sections 是什么](sections/what.md)
+    * [Sections 教程](sections/tutorial.md)
     * [GroupSection Specs](sections/groupsection.md)
     * [DiffSection Specs](sections/diffsection.md)
     * [Sections Building Blocks](sections/buildingblocks.md)
     * [与UI交互](sections/interact_ui.md)
-    * [Sections单元测试](sections/unit_test.md)
-    * [Sections与Views](sections/sections_views.md)
+    * [Sections 单元测试](sections/unit_test.md)
+    * [Sections 与 Views](sections/sections_views.md)
     * [Services](sections/services.md)
-    * [Sections架构](sections/architecture.md)
+    * [Sections 架构](sections/architecture.md)
     * [工作范围](sections/work_range.md)
 * 兼容性
     * [Styles](compatibility/styles.md)
@@ -60,7 +60,7 @@
     * [代码生成](arch/code_generation.md)
     * [异步布局](arch/async_layout.md)
     * [增量安装](arch/incremental_mount.md)
-    * [铺平View结构](arch/view_flattening.md)
+    * [铺平 View 结构](arch/view_flattening.md)
     * [复用](arch/recycling.md)
 * 附加资源
     * [最佳实践](addtionalres/best_practice.md)
