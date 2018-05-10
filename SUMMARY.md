@@ -36,7 +36,7 @@
     * [Sections 与 Views](sections/sections_views.md)
     * [Services](sections/services.md)
     * [Sections 架构](sections/architecture.md)
-    * [工作范围](sections/work_range.md)
+    * [Working Ranges](sections/work_range.md)
 * 兼容性
     * [Styles](compatibility/styles.md)
     * [Accessbility](compatibility/accessibility.md)
