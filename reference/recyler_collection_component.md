@@ -88,20 +88,20 @@ RecyclerCollectionComponen t默认启用下拉刷新，并向底层的 Recycler 
 * errorComponent：数据加载失败，列表中没有任何内容。
 
 
-	final Component component =
-	    RecyclerCollectionComponent.create(context)
-	        .section(FooSection.create(new SectionContext(context)).build())
-	        .recyclerConfiguration(recyclerConfiguration)
-	        .loadingComponent(
-	            Progress.create(c)
-	                .build())
-	        .errorComponent(
-	            Text.create(c)
-	                .text("Data Fetch has failed").build())
-	        .emptyComponent(
-	            Text.create(c)
-	                .text("No data to show").build())
-	        .build();
+		final Component component =
+		    RecyclerCollectionComponent.create(context)
+		        .section(FooSection.create(new SectionContext(context)).build())
+		        .recyclerConfiguration(recyclerConfiguration)
+		        .loadingComponent(
+		            Progress.create(c)
+		                .build())
+		        .errorComponent(
+		            Text.create(c)
+		                .text("Data Fetch has failed").build())
+		        .emptyComponent(
+		            Text.create(c)
+		                .text("No data to show").build())
+		        .build();
 
 
 你可以在[此处](https://fblitho.com/javadoc/com/facebook/litho/sections/widget/RecyclerCollectionComponent.html)查看 RecyclerCollectionComponent 支持的其他 props 。
