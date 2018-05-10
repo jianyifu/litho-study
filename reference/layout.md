@@ -3,11 +3,14 @@
 Litho 使用 Flexbox 实现的 Yoga 对屏幕上的组件进行测量和布局。如果在 Web 上使用过 Flexbox ，应该非常熟悉。如果更熟悉 Android 通常执行 Layout 的方式，那么 Flexbox 会让你想起 LinearLayout。
 
 在 Litho 中，您可以使用 Row 来实现与水平 LinearLayout 类似的布局。
+
 	Row.create(c)
 	    .child(...)
 	    .child(...)
 	    .build();
+
 或者 Column 实现类似于 垂直 LinearLayout 的布局。
+
 	Column.create(c)
 	    .child(...)
 	    .child(...)
