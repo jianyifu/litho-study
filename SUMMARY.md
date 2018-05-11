@@ -61,7 +61,7 @@
     * [异步布局](arch/async_layout.md)
     * [增量安装](arch/incremental_mount.md)
     * [铺平 View 结构](arch/view_flattening.md)
-    * [复用](arch/recycling.md)
+    * [回收](arch/recycling.md)
 * 附加资源
     * [最佳实践](addtionalres/best_practice.md)
     * [FAQ](addtionalres/FAQ.md)
